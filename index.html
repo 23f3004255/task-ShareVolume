@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Autodesk, Inc. (ADSK) — Shares Outstanding Stats</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./script.js"></script>
+</head>
+<body>
+  <div class="main-container">
+    <h1 id="share-entity-name">Autodesk, Inc. (ADSK)</h1>
+    <div id="loader" style="display:none">Loading data…</div>
+    <div id="stats-area">
+      <div class="stats-row">
+        <div class="stat-card">
+          <div class="stat-label">Maximum Shares</div>
+          <div class="stat-value" id="share-max-value">—</div>
+          <div class="stat-fy">Fiscal Year: <span id="share-max-fy">—</span></div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Minimum Shares</div>
+          <div class="stat-value" id="share-min-value">—</div>
+          <div class="stat-fy">Fiscal Year: <span id="share-min-fy">—</span></div>
+        </div>
+      </div>
+    </div>
+    <div style="color:#aaa; font-size:0.96em; margin-top:20px;">
+      Data from US SEC. <span id="data-source"></span>
+    </div>
+  </div>
+</body>
+</html>
